@@ -65,6 +65,12 @@ Universal device encryption method.
 
 *"Melt it down under adversarial load, and prove what survives."*
 
+**Reach me**
+
+[![Email](https://img.shields.io/badge/Email-bowles.s.chris%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bowles.s.chris@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Conqueror--Mod-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Conqueror-Mod)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/christheconqueror)
+
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
 
 </div>
