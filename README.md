@@ -6,6 +6,7 @@
 
 [![Email](https://img.shields.io/badge/Email-bowles.s.chris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:bowles.s.chris@gmail.com)
 ![Focus](https://img.shields.io/badge/Focus-Electron%20%C2%B7%20Rust%20%C2%B7%20Security%20%C2%B7%20QA-blueviolet?style=flat-square)
+![Profile views](https://komarev.com/ghpvc/?username=Conqueror-Mod&style=flat-square&color=blueviolet&label=Profile+views)
 
 🚀 **Currently:** hardening **Conquered Time** for its multi-platform release — Windows shipping, macOS &amp; Linux next.
 
