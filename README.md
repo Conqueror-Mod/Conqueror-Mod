@@ -1,6 +1,6 @@
 <div align="center">
 
-![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Chris%20Bowles&fontSize=52&fontColor=ffffff&animation=fadeIn&desc=I%20ship%20secure%2C%20encrypted%20desktop%20software&descSize=18&descAlignY=58)
+![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Chris%20Bowles&fontSize=52&fontColor=ffffff&fontAlignY=32&animation=fadeIn&desc=I%20ship%20secure%2C%20encrypted%20desktop%20software&descSize=18&descAlignY=52)
 
 **Product & quality engineering** — I build polished desktop apps with security baked in, and the adversarial tooling that proves they hold up.
 
