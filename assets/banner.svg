@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Chris Bowles — The Conqueror">
+  <defs>
+    <!-- Background: tokyonight-ish deep navy -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b2e"/>
+      <stop offset="0.55" stop-color="#16161f"/>
+      <stop offset="1" stop-color="#0e0e17"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#6E4AFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6E4AFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Brushed-brass pillars -->
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b5220"/>
+      <stop offset="0.25" stop-color="#d8b35a"/>
+      <stop offset="0.5" stop-color="#f6e2a0"/>
+      <stop offset="0.75" stop-color="#c99a3e"/>
+      <stop offset="1" stop-color="#5c4418"/>
+    </linearGradient>
+    <radialGradient id="finial" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#fbeeb6"/>
+      <stop offset="0.5" stop-color="#d4a942"/>
+      <stop offset="1" stop-color="#7a5a1e"/>
+    </radialGradient>
+
+    <!-- Glass bulbs -->
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8ff" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#7aa8e0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#bcd8ff" stop-opacity="0.5"/>
+    </linearGradient>
+    <!-- Sand -->
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd98a"/>
+      <stop offset="1" stop-color="#e8a94a"/>
+    </linearGradient>
+
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6e2a0"/>
+      <stop offset="1" stop-color="#c99a3e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="1197" height="297" rx="17" fill="none" stroke="#6E4AFF" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- ============ HOURGLASS ICON (left) ============ -->
+  <g transform="translate(150 150)">
+    <!-- Frame: four pillars + top/bottom plates with ball finials -->
+    <!-- top plate -->
+    <rect x="-70" y="-108" width="140" height="16" rx="5" fill="url(#brass)"/>
+    <!-- bottom plate -->
+    <rect x="-70" y="92" width="140" height="16" rx="5" fill="url(#brass)"/>
+
+    <!-- four pillars -->
+    <rect x="-64" y="-92" width="10" height="184" rx="4" fill="url(#brass)"/>
+    <rect x="-24" y="-92" width="10" height="184" rx="4" fill="url(#brass)" opacity="0.9"/>
+    <rect x="14"  y="-92" width="10" height="184" rx="4" fill="url(#brass)" opacity="0.9"/>
+    <rect x="54"  y="-92" width="10" height="184" rx="4" fill="url(#brass)"/>
+
+    <!-- ball finials (4 corners) -->
+    <circle cx="-59" cy="-108" r="12" fill="url(#finial)"/>
+    <circle cx="59"  cy="-108" r="12" fill="url(#finial)"/>
+    <circle cx="-59" cy="108"  r="12" fill="url(#finial)"/>
+    <circle cx="59"  cy="108"  r="12" fill="url(#finial)"/>
+
+    <!-- glass bulbs -->
+    <path d="M -40 -86 L 40 -86 L 6 0 L 40 86 L -40 86 L -6 0 Z" fill="url(#glass)" stroke="#cfe3ff" stroke-opacity="0.35" stroke-width="2"/>
+    <!-- top sand (half full — level sits partway down toward the neck) -->
+    <path d="M -21 -42 L 21 -42 L 5 -6 L -5 -6 Z" fill="url(#sand)"/>
+    <!-- bottom sand (near full — pile risen high in the lower bulb) -->
+    <path d="M -37 84 L 37 84 L 8 18 L -8 18 Z" fill="url(#sand)"/>
+    <!-- falling stream -->
+    <rect x="-1.5" y="-6" width="3" height="86" fill="#f4c774"/>
+    <!-- glass highlight -->
+    <path d="M -30 -78 L -12 -78 L -3 -4 L -10 -4 Z" fill="#ffffff" opacity="0.12"/>
+  </g>
+
+  <!-- ============ TEXT (right) ============ -->
+  <g transform="translate(300 0)">
+    <text x="0" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#title)">Chris Bowles</text>
+    <text x="2" y="160" font-family="Georgia, serif" font-size="26" font-style="italic" fill="#9aa4d4">“The Conqueror”</text>
+    <text x="2" y="205" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#e6e6f0">AI Engineer · Consultant · Point-of-Sale Engineer</text>
+    <text x="2" y="238" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#6b74a8">Lubbock, Texas · Encryption-first desktop apps · Systems taken apart &amp; rebuilt harder</text>
+  </g>
+</svg>

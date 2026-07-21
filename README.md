@@ -1,6 +1,6 @@
 <div align="center">
 
-![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Chris%20Bowles&fontSize=52&fontColor=ffffff&fontAlignY=32&animation=fadeIn&desc=AI%20Engineer%20%C2%B7%20Consultant%20%C2%B7%20Point-of-Sale%20Engineer&descSize=18&descAlignY=52)
+![banner](./assets/banner.png)
 
 **AI Engineer · Consultant · Point-of-Sale Engineer** — I build AI-driven systems and point-of-sale platforms, ship secure desktop software, and advise teams on getting it right.
 
