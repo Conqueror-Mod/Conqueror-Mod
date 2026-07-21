@@ -1,16 +1,26 @@
 <div align="center">
 
-![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Chris%20Bowles&fontSize=52&fontColor=ffffff&fontAlignY=32&animation=fadeIn&desc=I%20ship%20secure%2C%20encrypted%20desktop%20software&descSize=18&descAlignY=52)
+![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Chris%20Bowles&fontSize=52&fontColor=ffffff&fontAlignY=32&animation=fadeIn&desc=AI%20Engineer%20%C2%B7%20Consultant%20%C2%B7%20Point-of-Sale%20Engineer&descSize=18&descAlignY=52)
 
-**Product & quality engineering** — I build polished desktop apps with security baked in, and the adversarial tooling that proves they hold up.
+**AI Engineer · Consultant · Point-of-Sale Engineer** — I build AI-driven systems and point-of-sale platforms, ship secure desktop software, and advise teams on getting it right.
 
 [![Email](https://img.shields.io/badge/Email-bowles.s.chris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:bowles.s.chris@gmail.com)
-![Focus](https://img.shields.io/badge/Focus-Electron%20%C2%B7%20Rust%20%C2%B7%20Security%20%C2%B7%20QA-blueviolet?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-AI%20%C2%B7%20Point--of--Sale%20%C2%B7%20Security%20%C2%B7%20Desktop-blueviolet?style=flat-square)
 ![Profile views](https://komarev.com/ghpvc/?username=Conqueror-Mod&style=flat-square&color=blueviolet&label=Profile+views)
 
 🚀 **Currently:** hardening **Conquered Time** for its multi-platform release — Windows shipping, macOS &amp; Linux next.
 
 </div>
+
+---
+
+## 👋 About
+
+- 🤖 **AI Engineer** — I design and build AI-driven tooling and automation, wiring models into real workflows that ship.
+- 🧭 **Consultant** — I advise teams on architecture, security, and quality, then help them execute — not just diagnose.
+- 🛒 **Point-of-Sale Engineer** — I build and integrate point-of-sale systems, from the transaction flow to the hardware it runs on.
+- 🔒 **Security-minded builder** — encryption-at-rest, hardened desktop apps, and adversarial QA tooling are my default, not an afterthought.
+- 🎨 **Artist & art teacher** — a former full-time artist and art instructor; I still lead small art classes now and then, and that eye for design carries into everything I build.
 
 ---
 
