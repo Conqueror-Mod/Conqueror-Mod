@@ -38,7 +38,7 @@ I take systems apart to understand them, then rebuild them harder and cleaner. F
 - ⚡ **Lives in the tray** — global clock-in/out hotkey, idle nudges, and a self-updater that ships new versions straight from GitHub Releases
 - 🛠️ **Under the hood** — Electron · TypeScript (strict) · sql.js (WASM SQLite, zero native deps) · property-tested crypto paths
 
-### 🧪 The Crucible *(private — ask me about it)*
+### 🧪 The Crucible 
 The adversarial QA tooling I use to keep apps like Conquered Time honest. Point it at any website, Electron app, or **native desktop app**; it crawls every reachable state, runs adversarial probes, and emits an auto-debug report — structured as a **DMAIC** campaign with **PDCA** fix loops.
 
 - 🦀 Rust core · 🌲 native accessibility walkers (Windows UIA · macOS AX · Linux AT-SPI) · 🎭 Playwright adapter for web/Electron over CDP
