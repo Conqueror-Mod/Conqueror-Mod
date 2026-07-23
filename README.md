@@ -67,8 +67,9 @@ A universal device-encryption method — encryption-at-rest applied as a first p
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Conqueror-Mod&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Conqueror-Mod&layout=compact&theme=tokyonight&hide_border=true&count_private=true)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Conqueror-Mod&theme=tokyonight)
+![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Conqueror-Mod&theme=tokyonight)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Conqueror-Mod&theme=tokyonight)
 
 ![Streak](https://streak-stats.demolab.com?user=Conqueror-Mod&theme=tokyonight&hide_border=true)
 
