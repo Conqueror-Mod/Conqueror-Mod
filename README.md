@@ -44,7 +44,10 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest. Point 
 - 🦀 Rust core · 🌲 native accessibility walkers (Windows UIA · macOS AX · Linux AT-SPI) · 🎭 Playwright adapter for web/Electron over CDP
 
 ### 🔐 Project-Gambit *(private)*
-A universal device-encryption method — encryption-at-rest applied as a first principle, not a bolt-on.
+**A research design toward a successor to MFA / passkeys.** Passkeys fixed phishing but froze the credential: one keypair, valid until revoked, and a theft you never see. Gambit mutates the credential on *every* successful handshake — so a cloned one desyncs the moment either copy is used, making cloning self-expiring and detectable — and pairs it with a glyph handshake ceremony that turns server authentication into something a human can actually *see*.
+
+- 🎯 Aims at the **fallback downgrade** ("passkeys unavailable, enter your backup code"), the dominant real-world passkey bypass
+- 🔬 Conceptual, with both load-bearing protocols machine-checked in **Tamarin** — not cryptographically reviewed, and not a library to deploy
 
 ### 📺 LANcast *(private)*
 **A self-hosted media server** — Plex's streamlined functionality with Kodi's customizability. One Go binary that owns a SQLite database and serves an HTTP API: scan a folder, browse it, play it anywhere. No phone-home, no cloud, no account server.
