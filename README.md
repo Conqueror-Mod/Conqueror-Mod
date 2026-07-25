@@ -38,13 +38,18 @@ I take systems apart to understand them, then rebuild them harder and cleaner. F
 - ⚡ **Lives in the tray** — global clock-in/out hotkey, idle nudges, and a self-updater that ships new versions straight from GitHub Releases
 - 🛠️ **Under the hood** — Electron · TypeScript (strict) · sql.js (WASM SQLite, zero native deps) · property-tested crypto paths
 
-### 🧪 The Crucible 
+### 🧪 [The Crucible](https://github.com/Conqueror-Mod/Crucible)
 The adversarial QA tooling I use to keep apps like Conquered Time honest. Point it at any website, Electron app, or **native desktop app**; it crawls every reachable state, runs adversarial probes, and emits an auto-debug report — structured as a **DMAIC** campaign with **PDCA** fix loops.
 
 - 🦀 Rust core · 🌲 native accessibility walkers (Windows UIA · macOS AX · Linux AT-SPI) · 🎭 Playwright adapter for web/Electron over CDP
 
 ### 🔐 Project-Gambit *(private)*
 A universal device-encryption method — encryption-at-rest applied as a first principle, not a bolt-on.
+
+### 📺 LANcast *(private)*
+**A self-hosted media server** — Plex's streamlined functionality with Kodi's customizability. One Go binary that owns a SQLite database and serves an HTTP API: scan a folder, browse it, play it anywhere. No phone-home, no cloud, no account server.
+
+- 🐹 Go · 🗄️ pure-Go SQLite · 🎬 ffprobe-driven direct-play/remux/transcode decisions · 🔒 server-side sessions, loopback-only until secured
 
 ---
 
