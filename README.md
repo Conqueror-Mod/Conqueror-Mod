@@ -9,7 +9,7 @@ I build AI-driven systems and point-of-sale platforms, ship secure desktop softw
 ![Focus](https://img.shields.io/badge/Focus-AI%20%C2%B7%20Point--of--Sale%20%C2%B7%20Security%20%C2%B7%20Desktop-blueviolet?style=flat-square)
 ![Profile views](https://komarev.com/ghpvc/?username=Conqueror-Mod&style=flat-square&color=blueviolet&label=Profile+views)
 
-🚀 **Currently:** hardening **Conquered Time** for its multi-platform release — Windows shipping, macOS &amp; Linux next.
+🚀 **Currently:** taking **LANcast** public — signed releases and in-app update checks, so a self-hosted server can prove an update before it installs it.
 
 </div>
 
@@ -38,8 +38,8 @@ I take systems apart to understand them, then rebuild them harder and cleaner. F
 - ⚡ **Lives in the tray** — global clock-in/out hotkey, idle nudges, and a self-updater that ships new versions straight from GitHub Releases
 - 🛠️ **Under the hood** — Electron · TypeScript (strict) · sql.js (WASM SQLite, zero native deps) · property-tested crypto paths
 
-### 🧪 [The Crucible](https://github.com/Conqueror-Mod/Crucible)
-The adversarial QA tooling I use to keep apps like Conquered Time honest. Point it at any website, Electron app, or **native desktop app**; it crawls every reachable state, runs adversarial probes, and emits an auto-debug report — structured as a **DMAIC** campaign with **PDCA** fix loops.
+### 🧪 [The Crucible](https://github.com/Conqueror-Mod/Crucible) — *RCA › DMAIC › PDCA*
+The adversarial QA tooling I use to keep apps like Conquered Time honest — a method and a runnable tool. Point it at any website, Electron app, or **native desktop app**; it crawls every reachable state, runs adversarial probes, and emits a **ranked defect register**. The name reads inside-out: **RCA** on every individual defect, sitting inside a **DMAIC** campaign, whose Improve phase is made of **PDCA** fix loops.
 
 - 🦀 Rust core · 🌲 native accessibility walkers (Windows UIA · macOS AX · Linux AT-SPI) · 🎭 Playwright adapter for web/Electron over CDP
 
@@ -49,10 +49,15 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest. Point 
 - 🎯 Aims at the **fallback downgrade** ("passkeys unavailable, enter your backup code"), the dominant real-world passkey bypass
 - 🔬 Conceptual, with both load-bearing protocols machine-checked in **Tamarin** — not cryptographically reviewed, and not a library to deploy
 
-### 📺 LANcast *(private)*
-**A self-hosted media server** — Plex's streamlined functionality with Kodi's customizability. One Go binary that owns a SQLite database and serves an HTTP API: scan a folder, browse it, play it anywhere. No phone-home, no cloud, no account server.
+### 📺 [LANcast](https://github.com/Conqueror-Mod/LANcast)
+**A self-hosted media server and library service** — Plex's streamlined functionality, Kodi's customizability, and neither one's compromises. The server owns truth and clients stay thin, behind one documented HTTP API, so a third-party TV or mobile client is a first-class possibility rather than a fork.
 
-- 🐹 Go · 🗄️ pure-Go SQLite · 🎬 ffprobe-driven direct-play/remux/transcode decisions · 🔒 server-side sessions, loopback-only until secured
+- 🎬 **Plays anywhere** — direct play, remux, or transcode chosen per file, with working seek and resume, in a media-type-aware React client
+- 🏷️ **Real metadata** — TMDB artwork and cast, ratings via OMDb, subtitles, Kodi-style `.nfo` sidecars; your corrections lock and survive rescans
+- 🧩 **Everything interesting is a provider** — scrapers, artwork, subtitles, and scanners sit behind stable interfaces, extended by **signed, capability-gated WebAssembly plugins** in a sandboxed runtime
+- 🚫 **No phone-home** — works with no API keys at all and never treats a missing one as an error; remote access is opt-in and self-owned, never a relay you rent
+- 🔒 **Loopback-only until you create the first account**, then it binds the LAN over HTTPS with multi-user accounts and server-side sessions
+- 🐹 **Under the hood** — Go · pure-Go SQLite (no cgo, no C toolchain, any platform) · ffprobe-driven playback decisions · Windows service + systemd installers · signed releases with in-app update checks
 
 ---
 
@@ -63,7 +68,9 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest. Point 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Windows](https://img.shields.io/badge/Win32%2FUIA-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/AT--SPI-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -75,11 +82,11 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest. Point 
 
 <div align="center">
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Conqueror-Mod&theme=tokyonight)
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Conqueror-Mod&theme=tokyonight)
-![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Conqueror-Mod&theme=tokyonight)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Conqueror-Mod&theme=tokyonight&v=202608)
+![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Conqueror-Mod&theme=tokyonight&v=202608)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Conqueror-Mod&theme=tokyonight&v=202608)
 
-![Streak](https://streak-stats.demolab.com?user=Conqueror-Mod&theme=tokyonight&hide_border=true)
+![Streak](https://streak-stats.demolab.com?user=Conqueror-Mod&theme=tokyonight&hide_border=true&v=202608)
 
 </div>
 
