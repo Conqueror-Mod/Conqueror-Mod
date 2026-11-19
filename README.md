@@ -9,7 +9,7 @@ I build AI-driven systems and point-of-sale platforms, ship secure desktop softw
 ![Focus](https://img.shields.io/badge/Focus-AI%20%C2%B7%20Point--of--Sale%20%C2%B7%20Security%20%C2%B7%20Desktop-blueviolet?style=flat-square)
 ![Profile views](https://komarev.com/ghpvc/?username=Conqueror-Mod&style=flat-square&color=blueviolet&label=Profile+views)
 
-🚀 **Currently:** taking **LANcast** public — signed releases and in-app update checks, so a self-hosted server can prove an update before it installs it.
+🚀 **Currently:** **LANcast 1.0 is out** — a self-hosted media server for films, TV, music, photos, comics, audiobooks and retro games. Next up: a native Roku app.
 
 </div>
 
@@ -38,7 +38,7 @@ I take systems apart to understand them, then rebuild them harder and cleaner. F
 - ⚡ **Lives in the tray** — global clock-in/out hotkey, idle nudges, and a self-updater that ships new versions straight from GitHub Releases
 - 🛠️ **Under the hood** — Electron · TypeScript (strict) · sql.js (WASM SQLite, zero native deps) · property-tested crypto paths
 
-### 🧪 [The Crucible](https://github.com/Conqueror-Mod/Crucible) — *RCA › DMAIC › PDCA*
+### 🧪 The Crucible *(private)* — *RCA › DMAIC › PDCA*
 The adversarial QA tooling I use to keep apps like Conquered Time honest — a method and a runnable tool. Point it at any website, Electron app, or **native desktop app**; it crawls every reachable state, runs adversarial probes, and emits a **ranked defect register**. The name reads inside-out: **RCA** on every individual defect, sitting inside a **DMAIC** campaign, whose Improve phase is made of **PDCA** fix loops.
 
 - 🦀 Rust core · 🌲 native accessibility walkers (Windows UIA · macOS AX · Linux AT-SPI) · 🎭 Playwright adapter for web/Electron over CDP
@@ -49,15 +49,21 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest — a m
 - 🎯 Aims at the **fallback downgrade** ("passkeys unavailable, enter your backup code"), the dominant real-world passkey bypass
 - 🔬 Conceptual, with both load-bearing protocols machine-checked in **Tamarin** — not cryptographically reviewed, and not a library to deploy
 
-### 📺 [LANcast](https://github.com/Conqueror-Mod/LANcast)
-**A self-hosted media server and library service** — Plex's streamlined functionality, Kodi's customizability, and neither one's compromises. The server owns truth and clients stay thin, behind one documented HTTP API, so a third-party TV or mobile client is a first-class possibility rather than a fork.
+### 📺 [LANcast](https://github.com/Conqueror-Mod/LANcast) — *v1.0, stable*
+**Your own media server.** Films, TV, music, photos, comics, audiobooks and retro games — on your hardware, under your control, with nothing phoning home. Plex's streamlined polish, Kodi's customizability, and neither one's compromises: no subscription, no account with anybody, no relay you rent.
 
-- 🎬 **Plays anywhere** — direct play, remux, or transcode chosen per file, with working seek and resume, in a media-type-aware React client
-- 🏷️ **Real metadata** — TMDB artwork and cast, ratings via OMDb, subtitles, Kodi-style `.nfo` sidecars; your corrections lock and survive rescans
-- 🧩 **Everything interesting is a provider** — scrapers, artwork, subtitles, and scanners sit behind stable interfaces, extended by **signed, capability-gated WebAssembly plugins** in a sandboxed runtime
-- 🚫 **No phone-home** — works with no API keys at all and never treats a missing one as an error; remote access is opt-in and self-owned, never a relay you rent
-- 🔒 **Loopback-only until you create the first account**, then it binds the LAN over HTTPS with multi-user accounts and server-side sessions
-- 🐹 **Under the hood** — Go · pure-Go SQLite (no cgo, no C toolchain, any platform) · ffprobe-driven playback decisions · Windows service + systemd installers · signed releases with in-app update checks
+<p align="center">
+  <a href="https://github.com/Conqueror-Mod/LANcast"><img src="https://raw.githubusercontent.com/Conqueror-Mod/LANcast/main/docs/screenshots/home.jpg" alt="The LANcast home screen" width="80%"></a>
+</p>
+
+- 🎬 **Films and TV that look after themselves** — collections build themselves, intros and credits are found by listening to and looking at the episodes, and any field you correct is locked against every refresh and rescan
+- ▶️ **Plays almost anything** — libmpv in the desktop app; everywhere else the server chooses direct play, remux or transcode and *tells you why*, with hardware encoding picked by a real test encode
+- 🍿 **Watch Together across the internet** — synchronised rooms, paired servers that see what friends are watching, and *Play on another device* from your phone to the TV-room PC
+- 🎵 **Music done properly** — gapless playback, crossfades, synced lyrics, ReplayGain, MusicBrainz albums, and full **MilkDrop** visualizers with their shaders
+- 🕹️ **Retro games** — identified by hash, played in the app or a browser, saves kept server-side, with **RetroAchievements** pop-ups in-game
+- 👥 **Built for a household** — per-person accounts, private-by-default viewing, content-rating limits, passkeys and two-factor sign-in
+- 🔒 **Secure by default** — loopback-only until the first account exists, then HTTPS with a pinned key, server-side sessions, double CSRF defence, and a sandboxed **WebAssembly plugin runtime** (deny-by-default)
+- 🐹 **Under the hood** — Go · pure-Go SQLite (no cgo) · React + TypeScript · one documented HTTP API with an OpenAPI spec · Windows app + service, Linux systemd · self-updating, signed releases · 125 decision records
 
 ---
 
@@ -69,6 +75,7 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest — a m
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
@@ -82,11 +89,11 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest — a m
 
 <div align="center">
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Conqueror-Mod&theme=tokyonight&v=202608)
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Conqueror-Mod&theme=tokyonight&v=202608)
-![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Conqueror-Mod&theme=tokyonight&v=202608)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Conqueror-Mod&theme=tokyonight&v=202611)
+![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Conqueror-Mod&theme=tokyonight&v=202611)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Conqueror-Mod&theme=tokyonight&v=202611)
 
-![Streak](https://streak-stats.demolab.com?user=Conqueror-Mod&theme=tokyonight&hide_border=true&v=202608)
+![Streak](https://streak-stats.demolab.com?user=Conqueror-Mod&theme=tokyonight&hide_border=true&v=202611)
 
 </div>
 
