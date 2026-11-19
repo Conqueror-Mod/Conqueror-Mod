@@ -29,6 +29,22 @@ I take systems apart to understand them, then rebuild them harder and cleaner. F
 
 ## 🔥 What I'm building
 
+### 📺 [LANcast](https://github.com/Conqueror-Mod/LANcast) — *v1.0, stable*
+**Your own media server.** Films, TV, music, photos, comics, audiobooks and retro games — on your hardware, under your control, with nothing phoning home. Plex's streamlined polish, Kodi's customizability, and neither one's compromises: no subscription, no account with anybody, no relay you rent.
+
+<p align="center">
+  <a href="https://github.com/Conqueror-Mod/LANcast"><img src="https://raw.githubusercontent.com/Conqueror-Mod/LANcast/main/docs/screenshots/home.jpg" alt="The LANcast home screen" width="80%"></a>
+</p>
+
+- 🎬 **Films and TV that look after themselves** — collections build themselves, intros and credits are found by listening to and looking at the episodes, and any field you correct is locked against every refresh and rescan
+- ▶️ **Plays almost anything** — libmpv in the desktop app; everywhere else the server chooses direct play, remux or transcode and *tells you why*, with hardware encoding picked by a real test encode
+- 🍿 **Watch Together across the internet** — synchronised rooms, paired servers that see what friends are watching, and *Play on another device* from your phone to the TV-room PC
+- 🎵 **Music done properly** — gapless playback, crossfades, synced lyrics, ReplayGain, MusicBrainz albums, and full **MilkDrop** visualizers with their shaders
+- 🕹️ **Retro games** — identified by hash, played in the app or a browser, saves kept server-side, with **RetroAchievements** pop-ups in-game
+- 👥 **Built for a household** — per-person accounts, private-by-default viewing, content-rating limits, passkeys and two-factor sign-in
+- 🔒 **Secure by default** — loopback-only until the first account exists, then HTTPS with a pinned key, server-side sessions, double CSRF defence, and a sandboxed **WebAssembly plugin runtime** (deny-by-default)
+- 🐹 **Under the hood** — Go · pure-Go SQLite (no cgo) · React + TypeScript · one documented HTTP API with an OpenAPI spec · Windows app + service, Linux systemd · self-updating, signed releases · 125 decision records
+
 ### ⏱️ [Conquered Time](https://github.com/Conqueror-Mod/conquered-time)
 **Professional time-intelligence for remote pros juggling multiple clients.** A secure desktop time tracker where everything lives in an **AES-256-encrypted local vault** — no cloud, no account server, no outbound calls.
 
@@ -48,22 +64,6 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest — a m
 
 - 🎯 Aims at the **fallback downgrade** ("passkeys unavailable, enter your backup code"), the dominant real-world passkey bypass
 - 🔬 Conceptual, with both load-bearing protocols machine-checked in **Tamarin** — not cryptographically reviewed, and not a library to deploy
-
-### 📺 [LANcast](https://github.com/Conqueror-Mod/LANcast) — *v1.0, stable*
-**Your own media server.** Films, TV, music, photos, comics, audiobooks and retro games — on your hardware, under your control, with nothing phoning home. Plex's streamlined polish, Kodi's customizability, and neither one's compromises: no subscription, no account with anybody, no relay you rent.
-
-<p align="center">
-  <a href="https://github.com/Conqueror-Mod/LANcast"><img src="https://raw.githubusercontent.com/Conqueror-Mod/LANcast/main/docs/screenshots/home.jpg" alt="The LANcast home screen" width="80%"></a>
-</p>
-
-- 🎬 **Films and TV that look after themselves** — collections build themselves, intros and credits are found by listening to and looking at the episodes, and any field you correct is locked against every refresh and rescan
-- ▶️ **Plays almost anything** — libmpv in the desktop app; everywhere else the server chooses direct play, remux or transcode and *tells you why*, with hardware encoding picked by a real test encode
-- 🍿 **Watch Together across the internet** — synchronised rooms, paired servers that see what friends are watching, and *Play on another device* from your phone to the TV-room PC
-- 🎵 **Music done properly** — gapless playback, crossfades, synced lyrics, ReplayGain, MusicBrainz albums, and full **MilkDrop** visualizers with their shaders
-- 🕹️ **Retro games** — identified by hash, played in the app or a browser, saves kept server-side, with **RetroAchievements** pop-ups in-game
-- 👥 **Built for a household** — per-person accounts, private-by-default viewing, content-rating limits, passkeys and two-factor sign-in
-- 🔒 **Secure by default** — loopback-only until the first account exists, then HTTPS with a pinned key, server-side sessions, double CSRF defence, and a sandboxed **WebAssembly plugin runtime** (deny-by-default)
-- 🐹 **Under the hood** — Go · pure-Go SQLite (no cgo) · React + TypeScript · one documented HTTP API with an OpenAPI spec · Windows app + service, Linux systemd · self-updating, signed releases · 125 decision records
 
 ---
 
@@ -87,11 +87,22 @@ The adversarial QA tooling I use to keep apps like Conquered Time honest — a m
 
 ## 📊 Stats
 
+| | 📺 [LANcast](https://github.com/Conqueror-Mod/LANcast) | ⏱️ [Conquered Time](https://github.com/Conqueror-Mod/conquered-time) |
+|---|---|---|
+| **Latest release** | v1.0.1 | v3.27.1 |
+| **Started** | Jul 2026 | Jun 2026 |
+| **Commits** | ~3,000 | ~480 |
+| **Merged PRs** | 1,170 | 172 |
+| **Tests** | 4,400+ Go · 2,400+ client | 160+, property tests on the crypto paths |
+| **Code** | ~280k lines of Go | ~12k lines of TypeScript |
+| **Design records** | 125 ADRs | 6 feature plans + a vault-format spec |
+
+<sub>Project figures as of November 2026.</sub>
+
 <div align="center">
 
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Conqueror-Mod&theme=tokyonight&v=202611)
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Conqueror-Mod&theme=tokyonight&v=202611)
-![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Conqueror-Mod&theme=tokyonight&v=202611)
+<img src="./assets/languages.svg" alt="Languages by bytes of code across all my repositories">
 
 ![Streak](https://streak-stats.demolab.com?user=Conqueror-Mod&theme=tokyonight&hide_border=true&v=202611)
 
