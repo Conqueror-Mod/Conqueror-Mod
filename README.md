@@ -29,7 +29,7 @@ I take systems apart to understand them, then rebuild them harder and cleaner. F
 
 ## 🔥 What I'm building
 
-### ⏱️ [Conquered Time](https://github.com/Conqueror-Mod/conquered-time) *(private beta)*
+### ⏱️ [Conquered Time](https://github.com/Conqueror-Mod/conquered-time)
 **Professional time-intelligence for remote pros juggling multiple clients.** A secure desktop time tracker where everything lives in an **AES-256-encrypted local vault** — no cloud, no account server, no outbound calls.
 
 - 🔒 **Security-first** — AES-256-GCM at rest, PBKDF2 (310k) key derivation, TOTP MFA + Windows Hello, one-time recovery, hardened sandboxed Electron with a strict CSP
